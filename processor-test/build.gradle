@@ -1,0 +1,39 @@
+plugins {
+  id 'java'
+}
+
+group 'com.peanut.diff.test'
+version '1.0-SNAPSHOT'
+
+repositories {
+  mavenLocal()
+  mavenCentral()
+}
+
+ext {
+  junitVersion = '5.9.2'
+}
+
+tasks.withType(JavaCompile) {
+  options.encoding = 'UTF-8'
+  sourceCompatibility = '17'
+  targetCompatibility = '17'
+}
+
+dependencies {
+  implementation project(':peanut-reflect-model')
+  implementation project(':peanut-util')
+  // annotationProcessor(project(":peanut-diff-processor"))
+  implementation('com.github.javaparser:javaparser-core:3.24.2')
+  implementation('com.github.javaparser:javaparser-symbol-solver-core:3.9.1')
+  annotationProcessor 'com.google.auto.service:auto-service:1.1.1'
+  implementation group: 'com.peanut.processor.annotation', name: 'peanut-processor-annotation', version: '1.0-SNAPSHOT'
+  implementation(project(":peanut-diff-processor"))
+  implementation(project(":peanut-diff-runtime"))
+  implementation(project(":peanut-diff-gen"))
+  testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
+  testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+}
+
+test {
+useJUnitPlatform()}

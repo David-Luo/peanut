@@ -1,0 +1,50 @@
+@@startuml javabean-metadata
+
+class Meta{
+    String code
+    String name
+    String description
+}
+enum PojoTypeEnum{
+    DTO
+    DO
+    PO
+    POJO
+}
+class ClassInfo extends Meta{
+    String packageName
+}
+
+class BeanInfo extends ClassInfo{
+    PojoTypeEnum pojoType
+    List<PropertyInfo> properties
+}
+BeanInfo .. PojoTypeEnum
+
+class PropertyInfo extends Meta{
+    Meta propertyType
+    Meta elementType
+    boolean collection
+    String initValue
+    boolean transient
+    boolean mandatory
+    boolean identity
+    String stage
+    DataDictionary dataDictionary
+}
+
+BeanInfo *-- PropertyInfo
+
+
+class EnumInfo extends ClassInfo{
+    DataDictionary valueDomain
+    List<EnumElement> elements
+}
+class EnumElement extends Meta{
+    
+}
+class DataDictionary extends Meta{
+
+}
+PropertyInfo .. ValueDomainInfo
+@@enduml

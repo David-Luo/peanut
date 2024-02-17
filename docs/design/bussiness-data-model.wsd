@@ -1,0 +1,45 @@
+@@startuml bussiness-data-model
+/'用一组属性描述其定义、标识、表示和允许值的数据单元。'/
+class DataElement{
+    String id //唯一标识
+    String name //中文名称
+    String englishName //英文名称
+    String description //说明描述
+    String representation //表示 。
+    String alian //别名，同义词
+    String valueDomain //值域
+    String bussinessDomain //业务应用领域
+    String elementType //数据元性质
+    String representationType //表示词类型
+    String topic //主题
+    String remark //备注
+}
+DataElement .. DataCodeSet
+class DataCodeSet{
+    String code //唯一标识
+    String name //中文名称
+    String description //说明描述
+    String representation //表示 
+    String codeScheme //编码方案
+    String topic //主题
+    String remark //备注
+    DataCode[] codeSet;
+}
+class DataCode{
+    String code //唯一标识
+    String name //中文名称
+    String description //说明描述
+}
+DataCodeSet *-- DataCode
+class DataModel{
+    String name //中文名称
+    String relationType //关系类型[属性，扩展实体，子实体]
+    String dataType //数据类型[ID标识,日期,ID标识,代码,描述,实体] 
+    String representation //表示 
+    String alian //别名，同义词
+    String valueDomain //值域
+    String bussinessDomain //业务应用领域
+    String elementType //数据元性质
+    String representationType //表示词类型
+}
+@@enduml

@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="220a5033-0b26-42e3-bfc1-9a2a0227c34f" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/processor-test">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/peanut-diff-runtime">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/peanut-diff-gen">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/peanut-diff-processor">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/processor-test">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/peanut-reflect-model">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/peanut-util">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/peanut-value-gen">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="peanut" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="peanut" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="peanut" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="peanut" type="f1a62948:ProjectNode" />
+                <item name="processor-test" type="2d1252cf:ModuleNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2c2WkqjbVocvz79CnpVKIVA6cax" />
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.CheckerGeneratorTest.testGenerateFromInterface.executor": "Run",
+    "Gradle.CheckerSourceCodeTemplateUtilTest.testBuildFormBeanBeCheck.executor": "Run",
+    "Gradle.CheckerSourceCodeTemplateUtilTest.testGenerateFromInterface.executor": "Run",
+    "Gradle.JavaBeanTemplateTest.executor": "Run",
+    "Gradle.JavaBeanTemplateTest.test.executor": "Debug",
+    "Gradle.JavaBeanTemplateTest.testType.executor": "Run",
+    "Gradle.JavaBeansFinderTest.javaBeanValidatorTest.executor": "Run",
+    "Gradle.JavaBeansFinderTest.reflectTest.executor": "Debug",
+    "Gradle.JavaBeansFinderTest.test.executor": "Debug",
+    "Gradle.Load Gradle Dependencies.executor": "Run",
+    "Gradle.peanut [build].executor": "Run",
+    "Gradle.peanut [clean].executor": "Run",
+    "Gradle.peanut [jar].executor": "Run",
+    "Gradle.peanut:peanut-diff-gen [build].executor": "Run",
+    "Gradle.peanut:peanut-diff-gen [clean].executor": "Run",
+    "Gradle.peanut:peanut-diff-gen [jar].executor": "Run",
+    "Gradle.peanut:peanut-diff-processor [build].executor": "Run",
+    "Gradle.peanut:peanut-diff-processor [classes].executor": "Run",
+    "Gradle.peanut:peanut-diff-processor [clean].executor": "Run",
+    "Gradle.peanut:peanut-diff-processor [jar].executor": "Run",
+    "Gradle.peanut:peanut-diff-runtime [build].executor": "Run",
+    "Gradle.peanut:peanut-diff-runtime [jar].executor": "Run",
+    "Gradle.peanut:peanut-reflect-model [build].executor": "Run",
+    "Gradle.peanut:peanut-util [build].executor": "Run",
+    "Gradle.peanut:peanut-value-gen [buildDependents].executor": "Run",
+    "Gradle.peanut:processor-test [:processor-test:CheckerServiceInterfaceProcessorTest.main()].executor": "Run",
+    "Gradle.peanut:processor-test [:processor-test:ReflectTypeTest.main()].executor": "Run",
+    "Gradle.peanut:processor-test [buildDependents].executor": "Run",
+    "Gradle.peanut:processor-test [build].executor": "Run",
+    "Gradle.peanut:processor-test [clean].executor": "Run",
+    "Gradle.peanut:processor-test [jar].executor": "Run",
+    "Gradle.processor-test [build].executor": "Run",
+    "Gradle.processor-test [clean].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveMembersDialog.RECENTS_KEY">
+      <recent name="com.peanut.util.JavaBeanUtils" />
+      <recent name="com.peanut.reflect.model.ClassInfo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.diff.processor" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.JavaBeanTemplateTest.test">
+    <configuration name="JavaBeanTemplateTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":peanut-value-gen:test" />
+            <option value="--tests" />
+            <option value="&quot;com.peanut.value.gen.generator.JavaBeanTemplateTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="JavaBeanTemplateTest.test" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":peanut-value-gen:test" />
+            <option value="--tests" />
+            <option value="&quot;com.peanut.value.gen.generator.JavaBeanTemplateTest.test&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="JavaBeanTemplateTest.testType" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":peanut-value-gen:test" />
+            <option value="--tests" />
+            <option value="&quot;com.peanut.value.gen.generator.JavaBeanTemplateTest.testType&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="peanut [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="peanut [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.JavaBeanTemplateTest.test" />
+        <item itemvalue="Gradle.peanut [build]" />
+        <item itemvalue="Gradle.peanut [clean]" />
+        <item itemvalue="Gradle.JavaBeanTemplateTest.testType" />
+        <item itemvalue="Gradle.JavaBeanTemplateTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-53826d6a" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="220a5033-0b26-42e3-bfc1-9a2a0227c34f" name="Changes" comment="" />
+      <created>1707310301842</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1707310301842</updated>
+      <workItem from="1707310304354" duration="5332000" />
+      <workItem from="1707357158975" duration="19087000" />
+      <workItem from="1707388694403" duration="2420000" />
+      <workItem from="1707738344762" duration="3866000" />
+      <workItem from="1707745732157" duration="269000" />
+      <workItem from="1707746005897" duration="43450000" />
+      <workItem from="1708045801554" duration="8638000" />
+      <workItem from="1708055370251" duration="32221000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/peanut-diff-gen/src/main/java/com/peanut/diff/gen/CheckerSourceCodeDeclaredBuilder.java</url>
+          <line>213</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/peanut-diff-gen/src/main/java/com/peanut/diff/gen/CheckerSourceCodeDeclaredBuilder.java</url>
+          <line>204</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/peanut-diff-processor/src/main/java/com/peanut/diff/processor/CheckerServiceInterfaceProcessor.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/peanut-diff-processor/src/main/java/com/peanut/diff/processor/CheckerServiceInterfaceProcessor.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/peanut-util/src/main/java/com/peanut/util/JavaBeanValidator.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/peanut-util/src/main/java/com/peanut/util/JavaBeansFinder.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/processor-test/src/test/java/com/peanut/util/ReflectTypeTest.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/peanut-value-gen/src/main/java/com/peanut/value/gen/generator/JavaBeanTemplate.java</url>
+          <line>70</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+rootProject.name = "peanut"
+include 'peanut-util'
+include 'peanut-reflect-model'
+include 'peanut-processor-annotation'
+include 'peanut-value-gen'
+include 'peanut-diff-runtime'
+include 'peanut-diff-gen'
+include 'peanut-diff-processor'
+include 'processor-test'

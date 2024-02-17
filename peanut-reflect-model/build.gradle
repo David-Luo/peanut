@@ -1,0 +1,42 @@
+plugins {
+    id 'java'
+    id 'maven-publish' 
+}
+
+group 'com.peanut.reflect.model'
+version '1.0-SNAPSHOT'
+
+// 配置jar任务的基础名称和版本
+jar {
+    archiveBaseName = project.name
+    archiveVersion = project.version
+}
+publishing {
+  publications {
+    maven(MavenPublication) {
+      groupId = project.group
+      artifactId = project.name
+      version = project.version
+      from components.java
+    }
+  }
+}
+repositories {
+  mavenLocal()
+  mavenCentral()
+}
+
+ext {
+  junitVersion = '5.9.2'
+}
+
+tasks.withType(JavaCompile) {
+  options.encoding = 'UTF-8'
+}
+
+dependencies {
+    implementation('jakarta.persistence:jakarta.persistence-api:3.0.0')
+}
+
+test {
+useJUnitPlatform()}
